@@ -1,0 +1,68 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Background */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+}
+
+/* Main container look */
+body {
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+
+/* Title */
+h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+/* Navigation list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* List items spacing */
+li {
+  margin: 15px 0;
+}
+
+/* Links styled as modern buttons */
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 12px 30px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+a:hover {
+  background: rgb(255, 255, 255);
+  color: #2038a3;
+  transform: scale(1.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Click effect */
+a:active {
+  transform: scale(0.95);
+}

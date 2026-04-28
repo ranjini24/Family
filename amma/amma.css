@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(118, 135, 204);
+    color: rgb(21, 37, 177);
+    text-align: center;
+    font-size: 24px;
+}
+#toast {
+  position: fixed;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #2a5298;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-size: 18px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  transition: 0.5s ease;
+  z-index: 9999;
+}
