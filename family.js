@@ -1,2 +1,2 @@
 document.getElementById("info").innerText =
-"Good Mother.";
+"Good Daughter.";
